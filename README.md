@@ -22,5 +22,3 @@ A modern, responsive e-commerce website built with vanilla JavaScript, HTML, and
 - Responsive design using media queries
 - Dynamic content rendering
 - Event delegation for better performance
-
-## Project Structure 
