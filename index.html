@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopCart - Your Digital Store</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3144/3144456.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt="ShopCart Logo" class="logo">
+            ShopCart
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" data-category="all">All</a></li>
+            <li><a href="#" data-category="mobiles">Mobiles</a></li>
+            <li><a href="#" data-category="laptops">Laptops</a></li>
+            <li><a href="#" data-category="accessories">Accessories</a></li>
+        </ul>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="products-container" id="productsContainer"></div>
+
+        <div class="cart-panel" id="cartPanel">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button class="close-cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems"></div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    Total: ₹<span id="cartTotal">0</span>
+                </div>
+                <button class="empty-cart" id="emptyCart">Empty Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
